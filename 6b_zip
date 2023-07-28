@@ -1,7 +1,7 @@
 import os
 from zipfile import ZipFile
 
-with ZipFile('D:/Zipperd_file.zip','w') as zip_object:
+with ZipFile('D:/Zipped_file.zip','w') as zip_object:
   zip_object.write('D:/CIT/testfile.txt')
 
 if os.path.exists('D:Zipped_file.zip'):
